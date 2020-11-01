@@ -18,6 +18,7 @@
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- <link href="assets/css/text-animate.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -29,11 +30,11 @@
 
     <div class="master-wrapper">
 
-        <div class="preloader">
+        <!-- <div class="preloader">
             <div class="preloader-img">
                 <span class="loading-animation animate-flicker"><img src="assets/img/loading.GIF" alt="loading"/></span>
             </div>
-        </div>
+        </div> -->
 
         <!-- Navigation -->
         <nav class="navbar navbar-default fadeInDown" data-wow-delay="0.5s" style="background-color: #0b1c05;">
@@ -139,23 +140,40 @@
 
 
         <!-- Header -->
-        <!-- <header id="headerwrap" class="dark-wrapper backstretched special-max-height no-overlay">
-            <div class="container vertical-center">
-                <div class="intro-text vertical-center text-left smoothie">
-                    <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.2s">Welcome</div>
-                    <div class="intro-sub-heading wow fadeIn secondary-font" data-wow-delay="0.4s">Take a look at my <span class="rotate">school career, language skills, various project, technical skills</span></div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mt30 wow text-center">
+                    <h2 class="section-heading">Welcome</h2>
+                </div>
+            </div>
+        </div> -->
+            <div class="container" style="background-color: #0b1c05;">
+                
+                <div class="col-lg-12 mt30 wow " style="color: #efefef; padding-bottom: 30px;">
+                    <h2 class="intro-heading">Welcome</h2>
+                    
+                        <!-- <div class="content">
+                            <div class="content__container" style="text-align: left;">
+                                <p class="content__container__text">Take a look at my</p>
+                                <ul class="content__container__list">
+                                    <li class="content__container__list__item"> school career</li>
+                                    <li class="content__container__list__item"> language skills </li>
+                                    <li class="content__container__list__item"> various project</li>
+                                    <li class="content__container__list__item"> technical skills</li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    
                     <a href="#welcome" class="btn btn-primary btn-white mt30 page-scroll" data-wow-delay="0.6s">Find Out More About Me</a>
                 </div>
             </div>
-        </header> -->
 
-        
         <section id="welcome">
             <div class="section-inner">
 
-                <div class="container">
+                <div class="container vertical-center">
                     <div class="row">
-                        <div class="col-lg-12 mb100 wow">
+                        <div class="col-lg-12 mb100 wow" style="padding-top: 30px;">
                             <h2 class="section-heading">Welcome To my e-Portfolio</h2>
                             <h3 class="section-subheading secondary-font">Justine Bannay, computer science student at ENSEEIHT</h3>
                         </div>
@@ -166,7 +184,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <p class="lead">About me </p>
-                            <p>I grew up in toulouse surrounded by a family of scientists in an environment full of technology. I naturally became interested in computer science which I started studying in my senior year. Then I continued my studies at the university of Blagnac where I obtained a 2 year technician degree in computer science and then I came to engineering school.</p>
+                            <p>I grew up in toulouse surrounded by a family of scientists in an environment full of technology. I naturally became interested in computer science which I started studying in my senior year. 
+                                Then I continued my studies at the university of Blagnac where I obtained a 2 year technician degree in computer science and then I came to engineering school.
+                                I am a very friendly person and I always try to see the positive side of situations. 
+                            </p>
                             <p class="mt30"><a href="#contact1" class="btn btn-primary btn-theme page-scroll">Get In Touch</a></p>
                         </div>
 
@@ -179,66 +200,121 @@
             </div>
         </section>
 
-        <section class="white-bg">
+        
+        <div class="row" style="padding-bottom: 30px;">
+            <div class="col-sm-9 match-height" style="display: block; height: 351px;">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled owl-carousel owl-theme" data-items="4" data-items-tablet="[768,2]" data-items-mobile="[479,1]" style="display: block; opacity: 1; visibility: visible; animation-name: fadeIn;">
+                            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2664px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 333px;"><li>
+                                <div class="row hover-item">
+                                    <div class="col-xs-12">
+                                        <img src="assets/img/interest/travel.jpg" class="img-responsive smoothie" alt="">
+                                    </div>
+                                    <div class="col-xs-12 hover-item-caption smoothie">
+                                        <div class="vertical-center" style="padding-top: 156.25px;">
+                                            <h3 class="smoothie">Travelling</h3>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li></div><div class="owl-item" style="width: 333px;"><li>
+                                <div class="row hover-item">
+                                    <div class="col-xs-12">
+                                        <img src="assets/img/interest/phone.jpg" class="img-responsive smoothie" alt="">
+                                    </div>
+                                    <div class="col-xs-12 hover-item-caption smoothie">
+                                        <div class="vertical-center" style="padding-top: 144.25px;">
+                                            <h3 class="smoothie">New technologies</h3>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </li></div><div class="owl-item" style="width: 333px;"><li>
+                                <div class="row hover-item">
+                                    <div class="col-xs-12">
+                                        <img src="assets/img/interest/book.jpg" class="img-responsive smoothie" alt="">
+                                    </div>
+                                    <div class="col-xs-12 hover-item-caption smoothie">
+                                        <div class="vertical-center" style="padding-top: 156.25px;">
+                                            <h3 class="smoothie">Reading</h3>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li></div></div></div>
+                            
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 match-height" style="display: block; height: 351px;">
+                <div class="vertical-center" style="padding-top: 164.25px;">
+                    <h3 class="section-subheading secondary-font">My areas of interest</h3>
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- <section class="white-bg">
             <div class="section-inner nopadding-bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-9 match-height">
+                        <div class="col-sm-9 match-height" style="display: inline-block; height: 351px;">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled" data-items="3" data-items-tablet="[768,2]" data-items-mobile="[479,1]">
-                                        <li>
+                                    <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled" data-items="3" data-items-tablet="[768,2]" data-items-mobile="[479,1]" style="display: block; opacity: 1; visibility: visible; animation-name: fadeIn;">
+                                        <div class="owl-wrapper" style="width: 2664px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 333px;"><li>
                                             <div class="row hover-item">
                                                 <div class="col-xs-12">
                                                     <img src="assets/img/interest/travel.jpg" class="img-responsive smoothie" alt="">
                                                 </div>
                                                 <div class="col-xs-12 hover-item-caption smoothie">
-                                                    <div class="vertical-center">
-                                                        <h3 class="smoothie">Travelling</a></h3>
+                                                    <div class="vertical-center" style="padding-top: 156.313px;">
+                                                        <h3 class="smoothie">Travelling</h3>
                                                         
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li>
+                                        </li></div><div class="owl-item" style="width: 333px;"><li>
                                             <div class="row hover-item">
                                                 <div class="col-xs-12">
                                                     <img src="assets/img/interest/phone.jpg" class="img-responsive smoothie" alt="">
                                                 </div>
                                                 <div class="col-xs-12 hover-item-caption smoothie">
-                                                    <div class="vertical-center">
-                                                        <h3 class="smoothie">New technologies</a></h3>
+                                                    <div class="vertical-center" style="padding-top: 144.063px;">
+                                                        <h3 class="smoothie">New technologies</h3>
                                                        
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li>
+                                        </li></div><div class="owl-item" style="width: 333px;"><li>
                                             <div class="row hover-item">
                                                 <div class="col-xs-12">
                                                     <img src="assets/img/interest/code.jpg" class="img-responsive smoothie" alt="">
                                                 </div>
                                                 <div class="col-xs-12 hover-item-caption smoothie">
-                                                    <div class="vertical-center">
-                                                        <h3 class="smoothie">Coding</a></h3>
+                                                    <div class="vertical-center" style="padding-top: 156.313px;">
+                                                        <h3 class="smoothie">Coding</h3>
                                                         
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li>
+                                        </li></div><div class="owl-item" style="width: 333px;"><li>
                                             <div class="row hover-item">
                                                 <div class="col-xs-12">
                                                     <img src="assets/img/interest/book.jpg" class="img-responsive smoothie" alt="">
                                                 </div>
                                                 <div class="col-xs-12 hover-item-caption smoothie">
-                                                    <div class="vertical-center">
-                                                        <h3 class="smoothie">Reading</a></h3>
+                                                    <div class="vertical-center" style="padding-top: 156.313px;">
+                                                        <h3 class="smoothie">Reading</h3>
                                                         
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li></div></div>
                                     </ul>
                                 </div>
                             </div>
@@ -251,9 +327,49 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/keyboard.jpg">
+        <div class="section-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="icon-box-1 match-height mb30" style="display: block; height: 288px;">
+                        <i class="fa-4x pe-7s-mouse"></i>
+                        <div class="content-area">
+                            <h3 class="title">Computer skills</h3>
+                            <div class="">I have acquired various computer skills thanks to the numerous practical works I have done during my university traning. I can program in several languages such as Python, Java or C++.
+                                 I also know how to developp websites in HTML/CSS or PHP. Then, I have some database skills since I know PL/SQL and the Oracle software.
+                                 Lastly, I am pretty qualified in the use of office automation software, mainly Microsoft Office. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="icon-box-1 match-height mb30" style="display: block; height: 288px;">
+                        <i class="fa-4x pe-7s-science"></i>
+                        <div class="content-area">
+                            <h3 class="title">Engineering</h3>
+                            <div class="">At ENSEEIHT, I study engineering in digital science. This traning course allows you to become an innovative engineer, familiar with new technologies and open to international and societal issues. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="icon-box-1 match-height mb30" style="display: block; height: 288px;">
+                        <i class="fa-4x pe-7s-users"></i>
+                        <div class="content-area">
+                            <h3 class="title">Soft skills</h3>
+                            <div class="">Being rather shy by nature, the communication courses helped me to open up more to others and allowed me to better express myself. 
+                                Now, I have good skills in written and oral communication. I am also more confident and this allows me to be effective in teamwork.
+                                Then, with all the experiences that I had, I am more autonomous, I manage my time efficiently and I always find a way to motivate myself to do a good job.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    
+        <!-- <section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/keyboard.jpg">
             <div class="section-inner">
                 <div class="container">
                     <div class="row">
@@ -293,7 +409,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
 
         <section>
             <div class="section-inner">
@@ -412,10 +529,10 @@
         
     </div>
 
-    <script src="assets/js/jquery.js"></script>
+    <!-- <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/init.js"></script>
+    <script src="assets/js/init.js"></script> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -424,7 +541,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     $(document).ready(function() {
         'use strict';
         jQuery('#headerwrap').backstretch([
@@ -437,7 +554,7 @@
             fade: 500
         });
     });
-    </script>
+    </script> -->
 
 </body>
 
