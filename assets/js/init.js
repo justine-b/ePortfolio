@@ -296,14 +296,14 @@ $(window).load(function() {
     }
 
     // PRELOADING SCREEN
-    /*
+    
     jQuery('a:not([target="_blank"]):not([href*=#]):not([href^=mailto]):not(.fancybox-media):not(.btn.responsive-menu):not(a[href$="jpg"]):not([href$="jpeg"]):not(a[href$="gif"]):not(a[href$="png"]):not(a.ajax-link):not(a.side-menu-trigger hidden-xs)').on('click', function(){
       var href = jQuery(this).attr('href');
-      jQuery('.preloader').fadeIn(300);
+      jQuery('.preloader').fadeIn(100);
       setTimeout(function(){
         window.location = href;
-      }, 300);
+      }, 100);
       return false;
     });
-*/
+
 });

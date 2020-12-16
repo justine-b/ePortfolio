@@ -27,6 +27,12 @@
 
 <body id="page-top" class="index">
 
+    <div class="preloader">
+        <div class="preloader-img">
+            <span class="loading-animation animate-flicker"><img src="assets/img/loading.GIF" alt="loading"/></span>
+        </div>
+    </div> 
+
     <div class="master-wrapper">
 
         <section class="dark-wrapper opaqued parallax"
@@ -34,13 +40,13 @@
             <div class="section-inner">
 
                 <!-- Navigation -->
-                <nav class="navbar navbar-default fadeInDown" data-wow-delay="0.5s">
-                    <div class="top-bar smoothie hidden-xs">
+                <nav class="navbar navbar-default" >
+                    <div class="top-bar ">
                         <div class="container">
                             <div class="clearfix">
                                 <ul class="list-inline social-links wow pull-left">
                                     <li>
-                                        <a href="#"><i class="fa fa-github"></i></a>
+                                        <a href="https://github.com/justine-b"><i class="fa fa-github"></i></a>
                                     </li>
                                     <li>
                                         <a href="https://www.instagram.com/just_ine_illusion/"><i
@@ -154,7 +160,7 @@
         <section id="welcome">
             <div class="section-inner nopadding-bottom">
 
-                <div class="container vertical-center">
+                <div class="container">
                     <div class="row">
 
                         <div class="col-lg-12 mb100 wow">
@@ -189,8 +195,91 @@
             </div>
         </section>
 
+        <section class="white-bg">
+            <div class="section-inner nopadding-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-9 match-height">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled" data-items="3" data-items-tablet="[768,2]" data-items-mobile="[479,1]">
+                                        <li>
+                                            <div class="row hover-item">
+                                                <div class="col-xs-12">
+                                                    <img src="assets/img/interest/travel.jpg" class="img-responsive smoothie" alt="">
+                                                </div>
+                                                <div class="col-xs-12 hover-item-caption smoothie">
+                                                    <div class="vertical-center">
+                                                        <h3 class="smoothie">Travelling</a></h3>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row hover-item">
+                                                <div class="col-xs-12">
+                                                    <img src="assets/img/interest/phone.jpg" class="img-responsive smoothie" alt="">
+                                                </div>
+                                                <div class="col-xs-12 hover-item-caption smoothie">
+                                                    <div class="vertical-center">
+                                                        <h3 class="smoothie">New technologies</a></h3>
+                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row hover-item">
+                                                <div class="col-xs-12">
+                                                    <img src="assets/img/interest/code.jpg" class="img-responsive smoothie" alt="">
+                                                </div>
+                                                <div class="col-xs-12 hover-item-caption smoothie">
+                                                    <div class="vertical-center">
+                                                        <h3 class="smoothie">Coding</a></h3>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="row hover-item">
+                                                <div class="col-xs-12">
+                                                    <img src="assets/img/interest/book.jpg" class="img-responsive smoothie" alt="">
+                                                </div>
+                                                <div class="col-xs-12 hover-item-caption smoothie">
+                                                    <div class="vertical-center">
+                                                        <h3 class="smoothie">Reading</a></h3>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 match-height">
+                            <div class="vertical-center">
+                                <h3 class="section-subheading secondary-font">My areas of interest</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="row" style="padding-bottom: 50px;">
+			<!-- <div class="horizontal-scroll-wrapper squares" >
+				<div><img src="assets/img/interest/travel.jpg"
+					class="img-responsive smoothie" alt="travel"></div>
+				<div><img src="assets/img/interest/phone.jpg"
+					class="img-responsive smoothie" alt="phone"></div>
+				<div><img src="assets/img/interest/travel.jpg"
+					class="img-responsive smoothie" alt="travel"></div>
+				<div><img src="assets/img/interest/travel.jpg"
+					class="img-responsive smoothie" alt="travel"></div>
+			</div> -->
+        <!-- <div class="row" style="padding-bottom: 50px;">
             <div class="col-sm-9 match-height" style="display: block; height: 351px;">
                 <div class="row">
                     <div class="col-xs-12">
@@ -260,7 +349,7 @@
                     <h3 class="section-subheading secondary-font">My areas of interest</h3>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div style="background-image: url(assets/img/bg/keyboard.jpg); color: #f3f3f3;">
             <div class="section-inner" style="background-color: rgba(0, 0, 0, 0.8); padding-top: 30px;">
@@ -361,7 +450,7 @@
                         <div class="col-md-6 text-center">
                             <ul class="list-inline social-links wow animated" style="visibility: visible;">
                                 <li>
-                                    <a href="#"><i class="fa fa-github"></i></a>
+                                    <a href="https://github.com/justine-b"><i class="fa fa-github"></i></a>
                                 </li>
                                 <li>
                                     <a href="https://www.instagram.com/just_ine_illusion/"><i
@@ -395,7 +484,10 @@
         </div>
 
     </div>
-
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/init.js"></script>
 
 </body>
 
